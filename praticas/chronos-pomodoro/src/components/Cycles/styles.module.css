@@ -1,0 +1,35 @@
+/* Container principal (Texto + Bolinhas) */
+.cycles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+/* Container que segura as bolinhas lado a lado */
+.cycleDots {
+  display: flex;
+  gap: 0.8rem;
+}
+
+/* A bolinha base */
+.cycleDot {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+
+/* Cores específicas consumindo nosso tema global */
+.workTime {
+  background: var(--warning);
+}
+
+.shortBreakTime {
+  background: var(--primary);
+}
+
+.longBreakTime {
+  background: var(--info);
+}
